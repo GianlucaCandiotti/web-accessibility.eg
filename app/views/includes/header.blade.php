@@ -3,7 +3,7 @@
 
 		<div class="navbar-header">
 			<a class="navbar-brand" href="#">
-				{{ HTML::image('img/logocs.svg', 'Code School') }}
+				{{ HTML::image('img/be-accessible-logo.png', 'Be Accessible Logo') }}
 			</a>
 		</div>
 
