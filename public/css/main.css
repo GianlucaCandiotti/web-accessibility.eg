@@ -1,0 +1,46 @@
+/* FONTS & TYPOGRAPHY
+-------------------------------------------------- */
+@font-face {
+  font-weight: 300;
+  font-family: 'OpenSans';
+  src:  url('./../fonts/OpenSans-Light.eot?') format('eot'),
+        url('./../fonts/OpenSans-Light.woff') format('woff'),
+        url('./../fonts/OpenSans-Light.ttf') format('truetype');
+  src /*\**/: url('./../fonts/OpenSans-Light.eot?') format('eot')\9;
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: 'OpenSans';
+  src:  url('./../fonts/OpenSans-Regular.eot?') format('eot'),
+        url('./../fonts/OpenSans-Regular.woff') format('woff'),
+        url('./../fonts/OpenSans-Regular.ttf') format('truetype');
+  src /*\**/: url('./../fonts/OpenSans-Regular.eot?') format('eot')\9;
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: 'OpenSans';
+  src:  url('./../fonts/OpenSans-Semibold.eot?') format('eot'),
+        url('./../fonts/OpenSans-Semibold.woff') format('woff'),
+        url('./../fonts/OpenSans-Semibold.ttf') format('truetype');
+  src /*\**/: url('./../fonts/OpenSans-Semibold.eot?') format('eot')\9;
+}
+
+@font-face {
+	font-weight: 600;
+	font-family: 'OpenSans';
+	src:  url('./../fonts/OpenSans-Bold.eot?') format('eot'),
+	url('./../fonts/OpenSans-Bold.woff') format('woff'),
+	url('./../fonts/OpenSans-Bold.ttf') format('truetype');
+	src /*\**/: url('./../fonts/OpenSans-Bold.eot?') format('eot')\9;
+}
+
+@font-face {
+	font-weight: 700;
+	font-family: 'OpenSans';
+	src:  url('./../fonts/OpenSans-ExtraBold.eot?') format('eot'),
+	url('./../fonts/OpenSans-ExtraBold.woff') format('woff'),
+	url('./../fonts/OpenSans-ExtraBold.ttf') format('truetype');
+	src /*\**/: url('./../fonts/OpenSans-ExtraBold.eot?') format('eot')\9;
+}
