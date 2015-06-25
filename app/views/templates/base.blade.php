@@ -14,6 +14,8 @@
 		<![endif]-->
 		</head>
 <body>
+
+@section('navbar')
 <nav class="navbar navbar-default">
 	<div class="container-fluid">
 
@@ -31,7 +33,10 @@
 
 	</div>
 </nav>
-
+@show
+<div class="container">
+	@yield('content')
+</div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
