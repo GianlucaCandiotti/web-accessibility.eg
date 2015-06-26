@@ -10,7 +10,7 @@
 			<nav class="col-md-offset-3 col-md-6" aria-label="main menu" role="navigation">
 				<ul class="navbar">
 					<li><a href="{{ URL::route('courses') }}">Cursos</a></li>
-					<a class="sign-up" href="{{ URL::route('signup') }}"><li>Registrate Gratis!</li></a>
+					<li class="sign-up"><a class="btn btn-prim" href="{{ URL::route('signup') }}">Registrate Gratis!</a></li>
 					<li><a href="{{ URL::route('signin') }}">Iniciar Sesión</a></li>
 				</ul>
 			</nav>

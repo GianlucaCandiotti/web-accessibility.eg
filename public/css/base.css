@@ -43,8 +43,20 @@ body{
 }
 
 a, .link{
+	color: #278998;
+	text-decoration: none;
 	-webkit-transition: 0.2s ease-in-out;
 	transition: 0.2s ease-in-out;
+}
+
+a:active, a:focus, a:hover, .link:active, .link:focus, .link:hover{
+	border-color: #17525b;
+	color: #17525b;
+}
+
+a:active, a:hover{
+	outline: 0;
+	text-decoration: none;
 }
 
 ul{
@@ -67,6 +79,90 @@ ul{
 
 .font-extrabold{
 	font-weight: 700;
+}
+
+.btn{
+	cursor: pointer;
+	display: inline-block;
+	text-align: center;
+	white-space: nowrap;
+	font-size: 75%;
+	line-height: 2;
+	padding: 0 2.5em;
+	background-color: #278998;
+	border: 2px solid #278998;
+	color: #fff;
+	border-radius: 100px;
+	font-family: "OpenSans",Helvetica,Arial,sans-serif;
+	font-weight: 600;
+	-webkit-transition: 0.2s ease-in-out;
+	transition: 0.2s ease-in-out;
+	vertical-align: initial;
+}
+
+.btn:active, .btn:focus, .btn:hover{
+	background-color: #206f7c;
+	border-color: #206f7c;
+	color: #fff;
+}
+
+.btn-dark{
+	background-color: #1d646f;
+	border: 2px solid #1d646f;
+	color: #fff;
+}
+
+.btn-dark:active, .btn-dark:focus, .btn-dark:hover {
+  background: #1b5d67;
+  border-color: #1b5d67;
+  color: #fff;
+}
+
+.form-control{
+	border-radius: 3px;
+	border: 2px solid #d9d7d5;
+	box-sizing: border-box;
+	font-size: 1em;
+	padding: 0.625em;
+	-webkit-transition: border-color 0.2s ease-in-out;
+	transition: border-color 0.2s ease-in-out;
+	width: 100%;
+	-webkit-appearance: none;
+	box-sizing: border-box;
+	height: 45px;
+}
+
+.form-control{
+	border-radius: 3px;
+	border: 2px solid #d9d7d5;
+	box-sizing: border-box;
+	font-size: 1em;
+	padding: 0.625em;
+	-webkit-transition: border-color 0.2s ease-in-out;
+	transition: border-color 0.2s ease-in-out;
+	width: 100%;
+	-webkit-appearance: none;
+	box-sizing: border-box;
+}
+
+.form-control:focus{
+	border-color: #278998;
+	outline: none;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(73,189,148,.6);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(73,189,148,.6);
+}
+
+
+label{
+	display: block;
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 0.3125em;
+	color: #585a5b;
+}
+
+span.fa-stack.fa-lg{
+	margin-right: -4px;
 }
 
 /* ==========================================================================

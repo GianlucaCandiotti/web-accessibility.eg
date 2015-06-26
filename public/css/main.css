@@ -49,7 +49,7 @@
 -------------------------------------------------- */
 
 header{
-	background-color: #FBFBFB;
+	background-color: #FFF;
 }
 
 header .navbar-logo-container img{
@@ -80,37 +80,6 @@ header nav .navbar li a:focus{
 	color: #585a5b;
 }
 
-header nav .navbar a.sign-up{
-	color: #fff;
-}
-
-header nav .navbar a.sign-up li{
-	line-height: 2;
-	padding: 0 2em;
-	background-color: #278998;
-	border: 2px solid #278998;
-	border-radius: 100px;
-	-webkit-transition: 0.2s ease-in-out;
-	transition: 0.2s ease-in-out;
-}
-
-header nav .navbar a.sign-up li:hover,
-header nav .navbar a.sign-up li:active,
-header nav .navbar a.sign-up li:focus{
-	background-color: #206f7c;
-	border-color: #206f7c;
-}
-
-header nav .navbar a.sign-up:active,
-header nav .navbar a.sign-up:focus{
-	outline: none;
-}
-
-header nav .navbar a.sign-up:active li,
-header nav .navbar a.sign-up:focus li{
-	text-decoration: underline;
-}
-
 header nav .navbar li.sign-up a{
 	color: #fff;
 	font-weight: 500;
@@ -128,6 +97,8 @@ footer{
 footer .left-container{
 	display: inline-block;
 	width: 45%;
+	margin-left: 2.5%;
+	margin-right: -4px;
 	vertical-align: bottom;
 }
 
@@ -161,10 +132,6 @@ footer .left-container .links-wrapper .social-media-links{
 	vertical-align: middle;
 }
 
-footer .left-container .links-wrapper .social-media-links span.fa-stack.fa-lg{
-	margin-right: -3px;
-}
-
 footer .right-container{
 	display: inline-block;
 	width: 50%;
@@ -179,4 +146,97 @@ footer .right-container img.logo{
 	display: block;
 	margin-bottom: 20px;
 	background-color: rgba(255,255,255,0.7);
+}
+
+/* HOME STYLES
+-------------------------------------------------- */
+
+#content.home{
+	background-color: #278998;
+	padding-top: 30px;
+	padding-bottom: 75px;
+}
+
+#content.home .page-header{
+	margin-top: 0;
+	color: #fff;
+	border-bottom: none;
+}
+
+#content.home .page-header h1{
+	font-weight: 600;
+	font-size: 32px;
+	margin-bottom: 10px;
+}
+
+#content.home .page-header p{
+	font-size: 18px;
+	font-style: italic;
+	color: rgba(255,255,255,0.7);
+}
+
+#content.home .presentation-info-cont .lead{
+	color: #fff;
+	margin-bottom: 30px;
+}
+
+#content.home .presentation-info-cont .courses-link{
+	margin-bottom: 40px;
+}
+
+#content.home .presentation-info-cont .courses-link a{
+	font-size: 16px;
+	font-weight: 500;
+}
+
+#content.home .presentation-info-cont .links{
+	color: #fff;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+#content.home .presentation-info-cont .links .label{
+	display: inline;
+	padding: 0.5em 1em .8em;
+	font-size: 75%;
+	font-weight: 600;
+	line-height: 1;
+	color: #fff;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: top;
+	border-radius: 0.5em;
+	margin: 0 2px;
+}
+
+/* SIGN UP / SIGN IN STYLES
+-------------------------------------------------- */
+
+#content.signup{
+	border-top: 1px solid rgba(0,0,0,0.07);
+	padding-top: 20px;
+}
+
+#content.signup h1{
+	font-size: 34px;
+	font-weight: 600;
+	color: #393d40;
+}
+
+#content.signup .submit-container{
+	text-align: center;
+	font-size: 17px;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+
+#content.signup button.submit{
+	text-transform: uppercase;
+	font-weight: 600;
+	padding: 0 3.5em;
+	line-height: 2.8;
+}
+
+#content.signup .other-form-link{
+	margin-top: 20px;
 }
