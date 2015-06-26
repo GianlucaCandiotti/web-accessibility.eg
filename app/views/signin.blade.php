@@ -23,7 +23,7 @@
 					</form>
 
 					<div class="other-form-link">
-						<p>¿No tienes una cuenta? <a class="link" href="{{ URL::route('signup') }}">Regístrate</a></p>
+						<p>¿No tienes una cuenta? <a class="link with-border" href="{{ URL::route('signup') }}">Regístrate</a></p>
 					</div>
 					<hr>
 					<div class="other-signup-methods">

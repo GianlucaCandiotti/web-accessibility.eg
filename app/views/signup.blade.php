@@ -27,7 +27,7 @@
 					</form>
 
 					<div class="other-form-link">
-						<p>¿Ya tienes una cuenta? <a class="link" href="{{ URL::route('signin') }}">Inicia Sesión</a></p>
+						<p>¿Ya tienes una cuenta? <a class="link with-border" href="{{ URL::route('signin') }}">Inicia Sesión</a></p>
 					</div>
 					<hr>
 					<div class="other-signup-methods">

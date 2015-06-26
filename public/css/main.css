@@ -151,51 +151,51 @@ footer .right-container img.logo{
 /* HOME STYLES
 -------------------------------------------------- */
 
-#content.home{
+#content.home .presentation{
 	background-color: #278998;
 	padding-top: 30px;
 	padding-bottom: 75px;
 }
 
-#content.home .page-header{
+#content.home .presentation .page-header{
 	margin-top: 0;
 	color: #fff;
 	border-bottom: none;
 }
 
-#content.home .page-header h1{
+#content.home .presentation .page-header h1{
 	font-weight: 600;
 	font-size: 32px;
 	margin-bottom: 10px;
 }
 
-#content.home .page-header p{
+#content.home .presentation .page-header p{
 	font-size: 18px;
 	font-style: italic;
 	color: rgba(255,255,255,0.7);
 }
 
-#content.home .presentation-info-cont .lead{
+#content.home .presentation .presentation-info-cont .lead{
 	color: #fff;
 	margin-bottom: 30px;
 }
 
-#content.home .presentation-info-cont .courses-link{
+#content.home .presentation .presentation-info-cont .courses-link{
 	margin-bottom: 40px;
 }
 
-#content.home .presentation-info-cont .courses-link a{
+#content.home .presentation .presentation-info-cont .courses-link a{
 	font-size: 16px;
 	font-weight: 500;
 }
 
-#content.home .presentation-info-cont .links{
+#content.home .presentation .presentation-info-cont .links{
 	color: #fff;
 	font-size: 14px;
 	font-weight: 500;
 }
 
-#content.home .presentation-info-cont .links .label{
+#content.home .presentation .presentation-info-cont .links .label{
 	display: inline;
 	padding: 0.5em 1em .8em;
 	font-size: 75%;
@@ -207,6 +207,52 @@ footer .right-container img.logo{
 	vertical-align: top;
 	border-radius: 0.5em;
 	margin: 0 2px;
+}
+
+#content .courses{
+	padding: 50px 0;
+}
+
+#content .courses .wrapper{
+	width: 85%;
+	margin: 0 auto;
+}
+
+#content .courses .course-card{
+	display: inline-block;
+	width: 30.33333%;
+	margin-left: 1.5%;
+	margin-right: calc( 1.5% - 3px );
+	background-color: #fff;
+	padding: 25px 15px;
+	text-align: center;
+	color: #585a5b;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+	margin-top: 30px;
+	margin-bottom: 30px;
+	vertical-align: top;
+	position: relative;
+	min-height: 390px;
+	padding-bottom: 70px;
+}
+
+#content .courses .course-card .logo img{
+	width: 120px;
+}
+
+#content .courses .course-card .title{
+	margin-top: 15px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+#content .courses .course-card .link-cont{
+	font-size: 17px;
+	text-transform: uppercase;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 25px;
 }
 
 /* SIGN UP / SIGN IN STYLES

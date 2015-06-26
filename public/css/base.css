@@ -32,6 +32,91 @@ a.skip:hover {
    Bootstrap resets and generic classes
    ========================================================================== */
 
+.color-yellow{
+	color: #d7a627;
+}
+
+.background-yellow{
+	background-color: #d7a627;
+}
+
+.yellow-link{
+	color: #d7a627;
+}
+
+.yellow-link:hover,
+.yellow-link:focus{
+	color: #b98f22;
+}
+
+.color-green{
+	color: #31a480;
+}
+
+.background-green{
+	background-color: #31a480;
+}
+
+.green-link{
+	color: #31a480;
+}
+
+.green-link:hover,
+.green-link:focus{
+	color: #29896b;
+}
+
+.color-blue{
+	color: #54588a;
+}
+
+.background-blue{
+	background-color: #54588a;
+}
+
+.blue-link{
+	color: #54588a;
+}
+
+.blue-link:hover,
+.blue-link:focus{
+	color: #464a74;
+}
+
+.color-orange{
+	color: #d67428;
+}
+
+.background-orange{
+	background-color: #d67428;
+}
+
+.orange-link{
+	color: #d67428;
+}
+
+.orange-link:hover,
+.orange-link:focus{
+	color: #b86422;
+}
+
+.color-grey{
+	color: #585a5b;
+}
+
+.background-grey{
+	background-color: #585a5b;
+}
+
+.grey-link{
+	color: #585a5b;
+}
+
+.grey-link:hover,
+.grey-link:focus{
+	color: #464849;
+}
+
 .image-link:hover,
 .image-link:active,
 .image-link:focus{
@@ -40,6 +125,7 @@ a.skip:hover {
 
 body{
 	font-family: 'OpenSans';
+	color: #585a5b;
 }
 
 a, .link{
@@ -116,6 +202,23 @@ ul{
   background: #1b5d67;
   border-color: #1b5d67;
   color: #fff;
+}
+
+.btn-sec{
+	background-color: transparent;
+	border: 2px solid #278998;
+	color: #278998;
+	padding: 0.5em 1.5em;
+}
+
+.btn-sec:hover, .btn-sec:focus, .btn-sec:active{
+	background-color: #278998;
+	border-color: #278998;
+	color: #fff;
+}
+
+.with-border{
+	border-bottom: 2px solid #278998;
 }
 
 .form-control{
