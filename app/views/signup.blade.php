@@ -20,7 +20,7 @@
 				<input type="password" class="form-control" id="exampleInputPassword2" placeholder="Confirma tu contraseña">
 			</div>
 			<button type="submit" class="btn btn-primary">Ingresar</button>
-			<button type="submit" class="btn btn-default">Cancelar</button>
+			<button class="btn btn-default">Cancelar</button>
 		</form>
 
 	</div>

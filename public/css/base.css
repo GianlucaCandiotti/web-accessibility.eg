@@ -53,6 +53,22 @@ ul{
 	list-style: none;
 }
 
+.font-light{
+	font-weight: 300;
+}
+
+.font-semibold{
+	font-weight: 500;
+}
+
+.font-bold{
+	font-weight: 600;
+}
+
+.font-extrabold{
+	font-weight: 700;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */

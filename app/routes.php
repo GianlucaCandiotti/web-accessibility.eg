@@ -11,7 +11,22 @@
 |
 */
 
-Route::get('/', function()
+Route::get('/', array('as' => 'home', 'uses' => function()
 {
 	return View::make('home');
-});
+}));
+
+Route::get('/sign-up', array('as' => 'signup', 'uses' => function()
+{
+	return View::make('signup');
+}));
+
+Route::get('/sign-in', array('as' => 'signin', 'uses' => function()
+{
+	return View::make('signin');
+}));
+
+Route::get('/courses', array('as' => 'courses', 'uses' => function()
+{
+	return View::make('courses');
+}));

@@ -4,9 +4,10 @@
 			<div class="links-wrapper">
 				<nav role="navigation" aria-label="footer links">
 					<ul class="footer-nav">
-						<li><a href="#">Ver Cursos</a></li>
-						<li><a href="#">Registrarse</a></li>
-						<li><a href="#">Iniciar Sesión</a></li>
+						<li><a href="{{ URL::route('signup') }}">Registrarse</a></li>
+						<li><a href="{{ URL::route('courses') }}">Ver Cursos</a></li>
+						<li><a href="#">Foro</a></li>
+						<li><a href="#">Soporte</a></li>
 					</ul>
 				</nav>
 				<div class="social-media-links">
@@ -37,7 +38,7 @@
 		<div class="right-container">
 			{{ HTML::image('img/be-accessible-logo.png', 'Be Accessible Logo', array('class' => 'logo')) }}
 			<p>
-				<span>Be Accessible</span> es una Página Web Accesible creada con el
+				<span class="font-bold">Be Accessible</span> es una Página Web Accesible creada con el
 				propósito de compartir material educativo de una manera inclusiva. 
 			</p>
 		</div>

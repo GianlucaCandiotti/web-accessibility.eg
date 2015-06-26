@@ -80,7 +80,11 @@ header nav .navbar li a:focus{
 	color: #585a5b;
 }
 
-header nav .navbar li.sign-up{
+header nav .navbar a.sign-up{
+	color: #fff;
+}
+
+header nav .navbar a.sign-up li{
 	line-height: 2;
 	padding: 0 2em;
 	background-color: #278998;
@@ -90,17 +94,21 @@ header nav .navbar li.sign-up{
 	transition: 0.2s ease-in-out;
 }
 
-header nav .navbar li.sign-up:hover,
-header nav .navbar li.sign-up:active,
-header nav .navbar li.sign-up:focus{
+header nav .navbar a.sign-up li:hover,
+header nav .navbar a.sign-up li:active,
+header nav .navbar a.sign-up li:focus{
 	background-color: #206f7c;
 	border-color: #206f7c;
 }
 
-header nav .navbar li.sign-up a:active,
-header nav .navbar li.sign-up a:focus{
-	text-decoration: underline;
+header nav .navbar a.sign-up:active,
+header nav .navbar a.sign-up:focus{
 	outline: none;
+}
+
+header nav .navbar a.sign-up:active li,
+header nav .navbar a.sign-up:focus li{
+	text-decoration: underline;
 }
 
 header nav .navbar li.sign-up a{
@@ -135,7 +143,7 @@ footer .left-container a:focus{
 }
 
 footer .left-container .links-wrapper{
-	margin-bottom: 65px;
+	margin-bottom: 55px;
 }
 
 footer .left-container .links-wrapper nav{
